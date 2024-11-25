@@ -2,50 +2,9 @@
 
 <a href="http://www.yes24.com/Product/Goods/72173703"><img src="https://github.com/WegraLee/deep-learning-from-scratch-2/blob/master/cover.png" width="150" align=right></a>
 
-## 새소식
-:white_check_mark: **2019.07.02** - 책 본문의 수식과 그림 파일들을 모아 공유합니다. 스터디 자료 등을 만드실 때 필요하면 활용하세요.
+[미리보기](http://preview2.hanbit.co.kr/books/zcau/) | [알려진 오류(정오표)](https://docs.google.com/document/d/1pzeh5nrP6y6A5WgT9vvxMpe-ai7ZRhU84BdAhdJzuFk/edit?usp=sharing) | [본문 그림과 수식 이미지 모음](https://github.com/WegraLee/deep-learning-from-scratch-2/blob/master/equations_and_figures_2.zip?raw=true)
 
-* [equations_and_figures_2.zip](https://github.com/WegraLee/deep-learning-from-scratch-2/blob/master/equations_and_figures_2.zip?raw=true)
-
----
-
-## 시리즈 소개
-
-<a href="https://github.com/WegraLee/deep-learning-from-scratch-3/blob/master/%EB%B0%91%EB%B0%94%EB%8B%A5%20%EC%8B%9C%EB%A6%AC%EC%A6%88%20%EC%86%8C%EA%B0%9C.pdf"><img src="https://github.com/WegraLee/deep-learning-from-scratch-3/blob/master/%EB%B0%91%EB%B0%94%EB%8B%A5%20%EC%8B%9C%EB%A6%AC%EC%A6%88%20%EC%86%8C%EA%B0%9C.png" width=1000></a>
-
-『밑바닥부터 시작하는 딥러닝』 시리즈는 현재 4편까지 출간되었고, 2024년 중으로 5편도 출간될 예정입니다. 5편까지의 핵심 주제와 관계는 대략 다음 그림처럼 정리할 수 있습니다.
-
-<img src="https://github.com/WegraLee/deep-learning-from-scratch-4/blob/master/series overview.png" width="600">
-
-시리즈의 모든 책은 기존 편을 읽지 않았어도 무리가 없도록 꾸려졌습니다. 예를 들어 3편에서 만드는 프레임워크는 작동 원리뿐 아니라 API 형태까지 파이토치와 거의 같습니다. 그래서 3편을 읽지 않았어도 4편을 읽는 데 전혀 무리가 없습니다.
-
-* [❶편의 깃허브 저장소](https://github.com/WegraLee/deep-learning-from-scratch)
-* [❸편의 깃허브 저장소](https://github.com/WegraLee/deep-learning-from-scratch-3)
-* [❹편의 깃허브 저장소](https://github.com/WegraLee/deep-learning-from-scratch-4)
-
-
-## 동영상 강의
-수원대학교 한경훈 교수님께서 『밑바닥부터 시작하는 딥러닝』 1, 2편을 교재로 진행하신 강의를 공개해주셨습니다. 책만으로 부족하셨던 분들께 많은 도움이 되길 바랍니다.
-
-딥러닝 I - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-i)
-
-[![ㅅㅣ리즈 1](https://img.youtube.com/vi/8Gpa_pdHrPE/0.jpg)](https://www.youtube.com/watch?v=8Gpa_pdHrPE&list=PLBiQZMT3oSxW1RS1hn2jWBgswh0nlcgQZ)
-
-딥러닝 II - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-ii)
-
-[![ㅅㅣ리즈 1](https://img.youtube.com/vi/5fwD1p9ymx8/0.jpg)](https://www.youtube.com/watch?v=5fwD1p9ymx8&list=PLBiQZMT3oSxXNGcmAwI7vzh2LzwcwJpxU)
-
-딥러닝 III - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-iii)
-
-[![ㅅㅣ리즈 1](https://img.youtube.com/vi/kIobK76on3s/0.jpg)](https://www.youtube.com/watch?v=kIobK76on3s&list=PLBiQZMT3oSxV3RxoFgNcUNV4R7AlvUMDx)
-
-## 선수지식
-
-다음은 역자가 추천하는 선수지식입니다.
-<img src="https://github.com/WegraLee/deep-learning-from-scratch-3/blob/master/%EB%B0%91%EB%B0%94%EB%8B%A5%20%EC%84%A0%EC%88%98%EC%A7%80%EC%8B%9D.png" width=1000>
-
-## 책 미리보기
-[hanbit.co.kr](http://preview2.hanbit.co.kr/books/zcau/)
+1편에서 다루지 못한 순환 신경망(RNN)을 자연어 처리와 시계열 데이터 처리에 활용하는 딥러닝 기술에 초점을 맞춰 살펴봅니다. 총 8개의 장을 하나의 이야기처럼 순서대로 읽도록 꾸몄습니다. 1편의 내용을 요약한 '신경망 복습'을 첫 장에 배치하여 신경망과 파이썬 지식을 어느 정도 갖춘 분이라면 1편을 읽지 않아도 무리 없이 따라올 수 있도록 배려했습니다.
 
 ## 파일 구성
 
@@ -58,10 +17,10 @@
 |common     |공통으로 사용하는 소스 코드  |
 |dataset    |데이터셋용 소스 코드 |
 
-학습된 가중치 파일(6장, 7장에서 사용)은 아래 URL에서 받을 수 있습니다.
+6장과 7장에서 사용하는 학습된 가중치 파일은 아래 URL에서 받을 수 있습니다.
+
 <https://www.oreilly.co.jp/pub/9784873118369/BetterRnnlm.pkl>
 
-소스 코드에 관한 설명은 책을 참고하세요.
 
 ## 요구사항
 소스 코드를 실행하려면 아래의 소프트웨어가 설치되어 있어야 합니다.
@@ -88,12 +47,44 @@ $ cd ../ch05
 $ python train_custom_loop.py
 ```
 
+---
+
+## 동영상 강의
+수원대학교 한경훈 교수님께서 『밑바닥부터 시작하는 딥러닝』 1, 2편을 교재로 진행하신 강의를 공개해주셨습니다. 책만으로 부족하셨던 분들께 많은 도움이 되길 바랍니다.
+
+딥러닝 I - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-i)
+
+[![시리즈 1](https://img.youtube.com/vi/8Gpa_pdHrPE/0.jpg)](https://www.youtube.com/watch?v=8Gpa_pdHrPE&list=PLBiQZMT3oSxW1RS1hn2jWBgswh0nlcgQZ)
+
+딥러닝 II - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-ii)
+
+[![시리즈 1](https://img.youtube.com/vi/5fwD1p9ymx8/0.jpg)](https://www.youtube.com/watch?v=5fwD1p9ymx8&list=PLBiQZMT3oSxXNGcmAwI7vzh2LzwcwJpxU)
+
+딥러닝 III - [강의 홈페이지](https://sites.google.com/site/kyunghoonhan/deep-learning-iii)
+
+[![시리즈 1](https://img.youtube.com/vi/kIobK76on3s/0.jpg)](https://www.youtube.com/watch?v=kIobK76on3s&list=PLBiQZMT3oSxV3RxoFgNcUNV4R7AlvUMDx)
+
+---
+
+## 팬픽 - 바닷속 딥러닝 어드벤처 (5부작)
+
+<img src="https://github.com/WegraLee/deep-learning-from-scratch-5/blob/main/posters/%E1%84%87%E1%85%A1%E1%84%83%E1%85%A1%E1%86%BA%E1%84%89%E1%85%A9%E1%86%A8%20%E1%84%83%E1%85%B5%E1%86%B8%E1%84%85%E1%85%A5%E1%84%82%E1%85%B5%E1%86%BC%20%E1%84%8B%E1%85%A5%E1%84%83%E1%85%B3%E1%84%87%E1%85%A6%E1%86%AB%E1%84%8E%E1%85%A5.png?raw=true">
+
+바닷속 세계를 배경으로, 해양 생물들이 자신의 특성과 필요에 맞는 딥러닝 기술을 개발하여 문제를 해결해 나가는 모험을 그린 연작 소설입니다. 《밑바닥부터 시작하는 딥러닝》 시리즈를 읽으신 분은 더 많은 재미를 느끼실 수 있도록 딥러닝 요소들을 곳곳에 삽입하였습니다.
+
+각 편의 주인공과 주제는 다음과 같습니다.
+
+1. **시야를 찾아서**: 쏨뱅이(쏨)가 **이미지 처리 기술**을 개발하여 주변 환경을 선명하게 파악
+1. **상어공주**: 괭이상어 공주(꽹)가 **자연어 처리** 기술로 돌고래 왕자와의 사랑을 쟁취
+1. **DeZero의 창조자**: 나뭇잎해룡(잎룡)이 **딥러닝 프레임워크**를 만들어 기술 보급과 협업 촉진
+1. **제발, 가즈아!**: 가자미(가즈아)가 **심층 강화 학습**으로 먹이가 풍부한 새로운 바다 개척
+1. **피쉬카소와 천재의 초상**: 유령실고기(피쉬카소)가 **이미지 생성 모델**로 바닷속 예술계 혁신
+
+<a href="https://www.hanbit.co.kr/channel/series/series_detail_list.html?hcs_idx=34" target="_blank" rel="noopener noreferrer">소설 보러 가기</a>
+
+---
+
 ## 라이선스
 
 이 저장소의 소스 코드는 [MIT 라이선스](http://www.opensource.org/licenses/MIT)를 따릅니다.
 비상용뿐 아니라 상용으로도 자유롭게 이용하실 수 있습니다.
-
-
-## 책의 오류
-
-이 책의 오탈자 등 오류 정보는 [정오표](https://docs.google.com/document/d/1pzeh5nrP6y6A5WgT9vvxMpe-ai7ZRhU84BdAhdJzuFk/edit?usp=sharing)에서 확인하실 수 있습니다.
