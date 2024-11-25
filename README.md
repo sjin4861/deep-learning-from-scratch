@@ -2,7 +2,7 @@
 
 <a href="http://www.yes24.com/Product/Goods/72173703"><img src="https://github.com/WegraLee/deep-learning-from-scratch-2/blob/master/cover.png" width="150" align=right></a>
 
-[미리보기](http://preview2.hanbit.co.kr/books/zcau/) | [알려진 오류(정오표)](https://docs.google.com/document/d/1pzeh5nrP6y6A5WgT9vvxMpe-ai7ZRhU84BdAhdJzuFk/edit?usp=sharing) | [본문 그림과 수식 이미지 모음](https://github.com/WegraLee/deep-learning-from-scratch-2/blob/master/equations_and_figures_2.zip?raw=true)
+[미리보기](http://preview2.hanbit.co.kr/books/zcau/) | [알려진 오류(정오표)](https://docs.google.com/document/d/1pzeh5nrP6y6A5WgT9vvxMpe-ai7ZRhU84BdAhdJzuFk/edit?usp=sharing) | [본문 그림과 수식 이미지 모음](https://github.com/WegraLee/deep-learning-from-scratch-2/raw/refs/heads/master/equations_and_figures_2.zip)
 
 1편에서 다루지 못한 순환 신경망(RNN)을 자연어 처리와 시계열 데이터 처리에 활용하는 딥러닝 기술에 초점을 맞춰 살펴봅니다. 총 8개의 장을 하나의 이야기처럼 순서대로 읽도록 꾸몄습니다. 1편의 내용을 요약한 '신경망 복습'을 첫 장에 배치하여 신경망과 파이썬 지식을 어느 정도 갖춘 분이라면 1편을 읽지 않아도 무리 없이 따라올 수 있도록 배려했습니다.
 
