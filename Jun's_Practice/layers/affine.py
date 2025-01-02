@@ -10,7 +10,11 @@ class Affine:
 
     def forward(self, x):
         self.x = x
-        return np.dot(x, self.W) + self.b
+        if x.ndim == 2:
+            return np.dot(x, self.W) + self.b
+        else:
+            N = x.shape[0]
+            return np.dot(x.reshape(N, -1), self.W) + self.b
 
     def backward(self, dout):
         dx = np.dot(dout, self.W.T)
